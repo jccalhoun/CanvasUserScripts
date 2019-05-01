@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Print Canvas Quiz
-// @namespace    https://github.com/sukotsuchido/CanvasUserScripts
+// @namespace    https://github.com/jccalhoun/CanvasUserScripts
 // @version      1.0
 // @description  Allows the user to print quizzes from the preview page.
 // @author       Chad Scott (ChadScott@katyisd.org)
 // @include      https://*.instructure.com/courses/*/quizzes/*/take?preview*
+// @include      https://*.ivylearn.ivytech.edu/courses/*/quizzes/*
 // ==/UserScript==
 (function() {
     $(document).ready ( function(){
